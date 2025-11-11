@@ -2,7 +2,7 @@
 ## Analyzing Historical Stock/Revenue Data and Building a Dashboard
 
 ### Project Overview
-This project demonstrates how to extract, clean, and visualize real-world financial data using Python. The analysis focuses on two well-known companies — Tesla (TSLA) and GameStop (GME). By leveraging APIs and web scraping techniques, this project retrieves historical stock price data and revenue reports, processes them, and creates interactive visualizations for insightful analysis. The objective is to understand how stock performance correlates with company revenues over time and to showcase practical skills in data extraction, cleaning, and visualization — all key components of modern data science workflows.
+This project demonstrates how to extract, clean, and visualize real-world financial data using Python. The analysis focuses on two well-known companies Tesla (TSLA) and GameStop (GME). By leveraging APIs and web scraping techniques, this project retrieves historical stock price data and revenue reports, processes them, and creates interactive visualizations for insightful analysis. The objective is to understand how stock performance correlates with company revenues over time and to showcase practical skills in data extraction, cleaning, and visualization all key components of modern data science workflows.
 
 ### Objectives
   The main goal of this project is to:
