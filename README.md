@@ -44,12 +44,12 @@ This project demonstrates how to extract, clean, and visualize real-world financ
 
 4. **Data Visualization**
 
-  A custom function named make_graph() is defined to visualize the extracted data. Using Plotly, the function creates two subplots:
+    A custom function named make_graph() is defined to visualize the extracted data. Using Plotly, the function creates two subplots:
 
-  The first subplot displays the historical share prices.
+      The first subplot displays the historical share prices.
 
-  The second subplot shows the historical revenue.
-Both graphs share the same x-axis (Date) for comparison, enabling users to observe patterns and correlations between stock performance and revenue growth over time.
+      The second subplot shows the historical revenue.
+      Both graphs share the same x-axis (Date) for comparison, enabling users to observe patterns and correlations between stock performance and revenue growth over time.
 
 ### Results and Insights
   The resulting interactive dashboard visually represents how Tesla’s and GameStop’s stock prices evolved in relation to their revenues. The charts highlight key financial trends, periods of rapid growth, and fluctuations that may correspond to real-world events or business milestones. The visualization helps users easily interpret data, identify relationships, and draw informed insights from complex financial datasets.
