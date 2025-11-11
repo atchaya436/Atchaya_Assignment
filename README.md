@@ -11,7 +11,7 @@ This project demonstrates how to extract, clean, and visualize real-world financ
 * Clean and organize the extracted data into structured Pandas DataFrames.
 * Visualize the relationship between stock prices and revenues using Plotly.
 * Build an understanding of how data pipelines can be created and automated for financial analysis.
-* 
+
 ### Learning Outcomes
 * This project reinforces essential data science concepts including:
 * Data extraction using APIs and web scraping.
@@ -30,25 +30,25 @@ This project demonstrates how to extract, clean, and visualize real-world financ
 * *Jupyter Notebook*: For developing and displaying code, results, and graphs in an interactive format.
 
 ### Process and Workflow
-1. Extracting Stock Data
+1. **Extracting Stock Data**
 
-The yfinance library is used to extract the historical stock data of Tesla (TSLA) and GameStop (GME). The Ticker function retrieves stock details, and the history(period="max") method fetches the complete stock price data from inception to the present. The resulting data includes columns such as Date, Open, High, Low, Close, Volume, and more.
+    The yfinance library is used to extract the historical stock data of Tesla (TSLA) and GameStop (GME). The Ticker function retrieves stock details, and the history(period="max") method fetches the complete stock price data from inception to the present. The resulting data includes columns such as Date, Open, High, Low, Close, Volume, and more.
 
-2. Web Scraping Revenue Data
+2. **Web Scraping Revenue Data**
 
-The requests and BeautifulSoup libraries are employed to scrape revenue data from HTML tables on provided URLs. The project extracts quarterly revenue tables for Tesla and GameStop, parsing the HTML to locate and collect relevant rows and columns. Unwanted characters such as $ and , are removed to convert the revenue data into a numeric format suitable for analysis.
+   The requests and BeautifulSoup libraries are employed to scrape revenue data from HTML tables on provided URLs. The project extracts quarterly revenue tables for Tesla and GameStop, parsing the HTML to locate and collect relevant rows and columns. Unwanted characters such as $ and , are removed to convert the revenue data into a numeric format suitable for analysis.
 
-3. Data Cleaning and Preparation
+3. **Data Cleaning and Preparation**
 
-After extraction, both stock and revenue data are cleaned and formatted. The Date column is standardized, and the Revenue column is stripped of symbols and converted to float values. Missing or empty data entries are removed to ensure consistency and reliability before visualization.
+    After extraction, both stock and revenue data are cleaned and formatted. The Date column is standardized, and the Revenue column is stripped of symbols and converted to float values. Missing or empty data entries are removed to ensure consistency and reliability before visualization.
 
-4. Data Visualization
+4. **Data Visualization**
 
-A custom function named make_graph() is defined to visualize the extracted data. Using Plotly, the function creates two subplots:
+  A custom function named make_graph() is defined to visualize the extracted data. Using Plotly, the function creates two subplots:
 
-The first subplot displays the historical share prices.
+  The first subplot displays the historical share prices.
 
-The second subplot shows the historical revenue.
+  The second subplot shows the historical revenue.
 Both graphs share the same x-axis (Date) for comparison, enabling users to observe patterns and correlations between stock performance and revenue growth over time.
 
 ### Results and Insights
